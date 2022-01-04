@@ -81,7 +81,7 @@ scene('game', ({ level, score, }) => {
 
   addLevel(maps[level], levelCfg)
 
-  add([sprite('bg'), layer('bg')])
+  //add([sprite('bg'), layer('bg')])
 
   const scoreLabel = add([
     text('0'),
@@ -163,7 +163,7 @@ scene('game', ({ level, score, }) => {
     scoreLabel.text = scoreLabel.value
   })
 
-  const SLICER_SPEED = 100
+  const SLICER_SPEED = 200
   
   action('slicer', (s) => {
     s.move(s.dir * SLICER_SPEED, 0)
