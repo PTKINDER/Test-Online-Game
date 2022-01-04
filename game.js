@@ -37,13 +37,13 @@ scene('game', ({ level, score, }) => {
   const maps = [
     [
       'ycc)ccccccccccccccccc^ccw',
-      'a                *      b',
+      'a *                     b',
       'a      *                b',
       'a    (                  b',
       '%             (         b',
       'a    (                  b',
       'a   *                   b',
-      'a              *        b',
+      'a        *              b',
       'xdd)ddddddddddddddddd)ddz',
     ],
     [
@@ -163,7 +163,7 @@ scene('game', ({ level, score, }) => {
     scoreLabel.text = scoreLabel.value
   })
 
-  const SLICER_SPEED = 200
+  const SLICER_SPEED = 300
   
   action('slicer', (s) => {
     s.move(s.dir * SLICER_SPEED, 0)
