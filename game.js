@@ -37,13 +37,13 @@ scene('game', ({ level, score, }) => {
   const maps = [
     [
       'ycc)cc^ccw',
-      'a *(     b',
+      'a *((    b',
       'a      * b',
-      'a(   (   b',
-      '% (    ) b',
+      'a(   ((  b',
+      '% (    )(b',
       'a ((((   b',
       'a   *    b',
-      'a ((   * b',
+      'a ( (  * b',
       'xdd)dd)ddz',
     ],
     [
