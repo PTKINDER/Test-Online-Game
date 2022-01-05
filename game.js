@@ -43,7 +43,7 @@ scene('game', ({ level, score, }) => {
       '% (    )(b',
       'a ((((   b',
       'a   *    b',
-      'a ( (  * b',
+      'a (  ( * b',
       'xdd)dd)ddz',
     ],
     [
