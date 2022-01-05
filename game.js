@@ -163,7 +163,7 @@ scene('game', ({ level, score, }) => {
     scoreLabel.text = scoreLabel.value
   })
 
-  const SLICER_SPEED = 300
+  const SLICER_SPEED = 200
   
   action('slicer', (s) => {
     s.move(s.dir * SLICER_SPEED, 0)
